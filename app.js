@@ -7,7 +7,7 @@ const methodOverride = require("method-override");
 
 const app = express();
 const port = 3000;
-const db = "mongodb+srv://Maksym:012345@cluster0.lrep59o.mongodb.net/blog";
+const db = "mongodb+srv://Maksym<password>:@cluster0.lrep59o.mongodb.net/blog";
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
